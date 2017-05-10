@@ -38,4 +38,7 @@ def Parsefeed():
 
 
 if __name__ == '__main__':
-    Parsefeed()
+    try:
+        Parsefeed()
+    except:
+        print("Error")
